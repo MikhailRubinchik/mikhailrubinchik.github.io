@@ -1,5 +1,133 @@
-<html>
-<H1>
-HI!
-</H1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="author" content="Vadim Kantorov">
+    <meta name="description" content="Vadim Kantorov. PhD student in computer vision." />
+	  
+    <meta property="og:image" content="http://vadimkantorov.com/vadimkantorov.jpg" />
+    <meta property="og:title" content="Vadim Kantorov" />
+    <meta property="og:description" content="I am a PhD student in computer vision at INRIA. Outside vision, I enjoy street art." />
+    <meta property="og:url" content="http://vadimkantorov.com" />
+		
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
+    <style>
+    	/*.collapsing {-webkit-transition: none; transition: none;} /*disable collapsing animation*/
+    	.small-margin {margin-top: 10px;}
+    	.large-margin {margin-top: 50px;}
+    	
+    	.profile-picture {height:180px;}
+    	.publication {margin-bottom:10px;}
+    	.thesis {margin-top:10px;}
+    </style>
+    
+    <title>Vadim Kantorov</title>
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="row large-margin">
+  			<div class="col-sm-4 col-sm-offset-3">
+  				<div>
+			  		<h1 style="margin: 0px">Vadim Kantorov</h1>
+	  				<p class="small-margin">PhD student in computer vision</p>
+	  			</div>
+	  			
+  				<table style="width:100%">
+  					<tr>
+  						<td><strong>E-mail</strong></td>
+  						<td>vadimkantorov@gmail.com</td>
+  					</tr>
+  					<tr>
+  						<td><strong>Phone</strong></td>
+  						<td>+33603292769</td>
+  					</tr>
+  					<tr>
+  						<td><strong>Skype</strong></td>
+  						<td>vadimkantorov</td>
+  					</tr>
+  				</table>
+	  			
+	  			<div class="small-margin">
+		    			<a href="https://github.com/vadimkantorov/vadimkantorov.com/releases/download/cv/cv_KANTOROV_Vadim.pdf">CV</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://github.com/vadimkantorov">GitHub</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.linkedin.com/in/vadimkantorov">LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://twitter.com/vadimkantorov">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://facebook.com/vadim.kantorov">Facebook</a>
+		    		</div>
+		    </div>
+		    <div class="col-sm-3">
+    			<img src="vadimkantorov.jpg" class="profile-picture" alt="photo of Vadim Kantorov" />
+		    </div>
+		</div>
+		<div class="row large-margin">
+			<div class="col-sm-6 col-sm-offset-3">
+				<p>I'm a third year PhD student in computer vision with <a href="http://www.di.ens.fr/willow">WILLOW</a> group at <a href="http://www.inria.fr">INRIA</a> / <a href="http://www.ens.fr">Ecole normale supérieure</a> supervised by <a href="http://www.di.ens.fr/~laptev/">Ivan Laptev</a> and <a href="http://cvlab.postech.ac.kr/~mcho/">Minsu Cho</a>. I hold a masters degree in applied mathematics, computer vision and machine learning (<a href="http://www.math.ens-cachan.fr/version-francaise/formations/master-mva/">MVA</a> at <a href="http://www.ens-cachan.fr">ENS de Cachan</a>).</p>
+			  	<p>My research interests these days revolve around deep learning for weakly supervised object detection and discovery. Previously I've worked on highly efficient action recognition. Back in college I enjoyed a <a href="http://acm.timus.ru/problem.aspx?num=1873">bunch</a> ACM ICPC programming competitions.
+				<p>Outside vision and learning, I am interested in distributed systems and street art.
+			</div>
+	   	</div>
+	   	<div class="row">
+	   		<div class="col-sm-8 col-sm-offset-3">
+				<h2>Publications</h2>
+				<div class="publication">
+					<strong>ContextLocNet: Context-aware deep network models for weakly supervised localization</strong><br />
+					Vadim Kantorov, Maxime Oquab, Minsu Cho, Ivan Laptev; ECCV 2016<br />
+					[<a href="http://arxiv.org/pdf/1609.04331.pdf">paper</a>]&nbsp;[<a href="https://github.com/vadimkantorov/contextlocnet/releases/download/1.0/contextlocnet_eccv2016_poster.pdf">poster</a>]&nbsp;[<a href="#/" data-toggle="collapse" data-target=".bibtex-2">bibtex</a>]&nbsp;[<a href="http://github.com/vadimkantorov/contextlocnet">code</a>]&nbsp;[<a href="http://www.di.ens.fr/willow/research/contextlocnet">webpage</a>]
+					<pre class="bibtex-2 collapse">@inproceedings{kantorov2016,
+      title = {ContextLocNet: Context-aware Deep Network Models for Weakly Supervised Localization},
+      author = {Kantorov, V., Oquab, M., Cho M. and Laptev, I.},
+      booktitle = {Proc. European Conference on Computer Vision (ECCV), IEEE, 2016},
+      year = {2016}
+}</pre>
+				</div>
+				<div class="publication">
+					<strong>Efficient feature extraction, aggregation and classification for action recognition</strong><br />
+					Vadim Kantorov, Ivan Laptev; CVPR 2014<br />
+					[<a href="http://www.di.ens.fr/willow/research/fastvideofeat/paper/cvpr2014_kantorov_paper.pdf">paper</a>]&nbsp;[<a href="http://www.di.ens.fr/willow/research/fastvideofeat/paper/cvpr2014_kantorov_poster.pdf">poster</a>]&nbsp;[<a href="#/" data-toggle="collapse" data-target=".bibtex-1">bibtex</a>]&nbsp;[<a href="http://github.com/vadimkantorov/cvpr2014">code</a>]&nbsp;[<a href="http://www.di.ens.fr/willow/research/fastvideofeat">webpage</a>]
+					<pre class="bibtex-1 collapse">@inproceedings{kantorov2014,
+	author = {Kantorov, V. and Laptev, I.},
+	title = {Efficient feature extraction, encoding and classification for action recognition},
+	booktitle = {Proc. Computer Vision and Pattern Recognition (CVPR), IEEE, 2014},
+	year = {2014}
+}</pre>
+				</div>
+				<div class="small-margin">
+					<a href="#/" data-toggle="collapse" data-target=".thesis">Theses &gt;&gt;</a>				
+					<div class="thesis collapse">
+						<strong>Evaluating MPEG compressed domain features for action recognition</strong><br />
+						Master thesis. Advisor: Ivan Laptev<br />
+						[<a href="https://github.com/vadimkantorov/vadimkantorov.com/releases/download/thesis/master_thesis_kantorov.pdf">pdf</a>]
+					</div>
+					<div class="thesis collapse">
+						<strong>Automatically assessing content quality in community question answering sites</strong><br />
+						Bachelor thesis, presented at TbiLLC 2011. Advisor: Pavel Braslavski<br />
+						[<a href="https://github.com/vadimkantorov/vadimkantorov.com/releases/download/thesis/bachelor_thesis_kantorov.pdf">pdf</a>]
+					</div>
+				</div>
+			</div>
+		</div>
+	   	<div class="row">
+	   		<div class="col-sm-8 col-sm-offset-3">
+				<h2>Other projects</h2>
+				<p><strong><a href="https://github.com/vadimkantorov/wigwam">wigwam</a></strong> - a humane dependency fetcher and builder for scientific projects</p>
+				<p><strong><a href="https://github.com/vadimkantorov/mpegflow">mpegflow</a></strong> - a tool for extracting and dumping motion vectors from video files</p>
+				<p><strong><a href="https://github.com/vadimkantorov/caffemodel2json">caffemodel2json</a></strong> - a tool for dumping Caffe models to JSON for inspection</p>
+				<p><strong><a href="https://github.com/vadimkantorov/wemosetup">wemosetup</a></strong> - a Python tool for setting up Belkin WeMo lights devices without Android or iOS</p>
+				<p><strong><a href="https://github.com/vadimkantorov/vosges">vosges</a></strong> - a tool for defining and running Sun Grid Engine (SGE) experiments in Python</p>
+			</div>
+	   	</div>
+	</div>
+    
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+              var pageTracker = _gat._getTracker("UA-35891631-1");
+            pageTracker._trackPageview();
+        } catch(err)  {}
+    </script>
+  </body>
 </html>
