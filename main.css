@@ -8,7 +8,7 @@ body {
   color: white;
   position: absolute;
   z-index: 2;
-  margin: 1vw 10vw; /* 41vw 10vw; */
+  margin: 1vw 10vw;
 }
 
 img {
@@ -68,7 +68,7 @@ h2 {
 
 p {
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 footer {
