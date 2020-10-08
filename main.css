@@ -1,7 +1,8 @@
 .no-padding {padding-left: 0px; padding-top: 0px; padding-right: 0px; }
 
 body {
-  font-family: Lato;
+  /*font-family: Lato;*/
+font-family: 'Lato', sans-serif;
 }
 
 .header .container {
